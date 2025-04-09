@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            display: flex;
+            background-color: rgb(250, 235, 238);
+            justify-content: space-between;
+        }
+        #outer{
+            padding: 30px 60px ;
+            
+        }
+        nav #logo{
+            height: 25px;
+            width: 25px;
+            background-color: black;
+            transform: rotate(45deg);
+        }
+        #nav{
+            display: flex;
+            justify-content: space-between;
+            /* padding: 20px; */
+            height: 30px;
+            align-items: center;
+            font-size:18px;
+
+        }
+        #outer{
+            width: 43vw;
+            height:100vh;
+        }
+        #list{
+            list-style: none;
+            margin-top: 40px;
+            /* width: 50vw; */
+            display: flex;
+            flex-direction: column;
+
+        }
+        #list li{
+            display: flex;
+            justify-content:end;
+            font-size: 18px;
+            /* padding-right: 20px; */
+        }
+        #content{
+            font-size: 6vw;
+            font-family: sans-serif ;
+
+        }
+        #content p {
+            margin: 0;
+            font-weight:lighter;
+            line-height: 80px;
+        }
+        .para{
+            padding-left: 7vw;
+        }
+        section p{
+            width: 30vw;
+            text-align: justify;
+            font-size: 18px;
+        }
+        #img{
+            height: 500px;   
+            width: 700px;      
+            padding-top:10vh;
+            display: flex;
+            /* position: relative; */
+        }
+        #arrow{
+            height: 100px;
+            width: 100px;
+            border-radius:50%;
+            background-color:orangered;
+            position:absolute;
+            top: 40%;
+            right: 620px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+        #arrow i{
+            color: white;
+            font-size: 40px;
+            
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <nav id="nav">
+            <div id="logo"></div>
+            <div id="menu">Menu</div>
+        </nav>
+        <ul id="list">
+            <li>Home Page</li>
+            <li>Portfolio</li>
+            <li>Fasion Week-@2021</li>
+            <li>News/Articles</li>
+            <li>Contact</li>
+        </ul>
+
+        
+        
+        <div id="content">
+            <p>SELECT</p>
+            <p class="para">FASION</p> 
+            <p >MOD.05 -</p>
+            <p class="para">SCENE</p>
+        </div>
+        
+        <section>
+            <p>Lorem ipsum dolor corrupti. Perferendis rerum ab repellendus dolore asper
+                natur veniam cum ea? Ipsum, aliquid! Rem incidunt autem doloremque, temporibus et quisquam?</p>
+        </section>
+    </div>
+
+    
+    <div id="img">
+        <img src="./saqib (2).jpg" alt="">
+
+        <div id="arrow"><i class="ri-arrow-right-line"></i></div>
+    </div>
+        <i class="ri-arrow-right-line"></i>
+</body>
+</html>
